@@ -1,0 +1,17 @@
+html, body, #root, #root > div {
+    height: 100% !important;
+    width: 100% !important;
+}
+
+body {
+    margin: 0;
+    display: flex;
+    place-items: center;
+    background: url("public/Images/Background.png");
+    background-size: cover;
+}
+
+#landing h2, p {
+    font-family: Roboto;
+    color: #fff;
+}

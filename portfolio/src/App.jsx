@@ -1,35 +1,40 @@
-import { useState } from 'react'
-import reactLogo from './assets/react.svg'
-import viteLogo from '/vite.svg'
-import './App.css'
+﻿import React from 'react';
+import Navbar from './navbar';
+import "./Main.css";
+import { Grid, Typography, Box, Stack } from '@mui/material';
+import content from './Typography.json';
 
-function App() {
-  const [count, setCount] = useState(0)
+const App = () => {
+    return (
+        <section id ="landing" sx={{ height: '100vh', width: '100vw', overflow: 'hidden' }}>
+            <Navbar />
+            {/* Introduction */}
+            <Grid container maxWidth= "xl" sx={{position: 'absolute', top: '40%', left: '10%', maxWidth: '50%'}}>
+                <Grid item>
+                    <Typography variant="h2" gutterBottom sx={{
+                    fontSize: { xs: '2rem', md: '4rem', lg: '4rem', xl: '5rem' },
+                    fontWeight: 'bold'}}>
+                    {content.greeting}
+                    </Typography>
+                </Grid>
 
-  return (
-    <>
-      <div>
-        <a href="https://vite.dev" target="_blank">
-          <img src={viteLogo} className="logo" alt="Vite logo" />
-        </a>
-        <a href="https://react.dev" target="_blank">
-          <img src={reactLogo} className="logo react" alt="React logo" />
-        </a>
-      </div>
-      <h1>Vite + React</h1>
-      <div className="card">
-        <button onClick={() => setCount((count) => count + 1)}>
-          count is {count}
-        </button>
-        <p>
-          Edit <code>src/App.jsx</code> and save to test HMR
-        </p>
-      </div>
-      <p className="read-the-docs">
-        Click on the Vite and React logos to learn more
-      </p>
-    </>
-  )
-}
+                <Grid item width="70%">
+                    <Typography variant="body1" sx={{
+                        fontSize: { xs: '1rem', md: '1.25rem', lg: '2rem', xl: '1.5rem' }, lineHeight: 1.4}}>
+                        {content.intro.intro1}
+                        {content.intro.intro2}
+                        {content.intro.intro3}
+                    </Typography>
+                </Grid>
+            </Grid>
 
-export default App
+            <Grid container maxWidth="xl" sx={{justifyContent:"center",} }>
+                    <Grid item>
+                <img src={content.divider.path}/>
+                    </Grid>
+                </Grid>
+        </section>
+    );
+    
+};
+export default App;

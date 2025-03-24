@@ -1,0 +1,17 @@
+{
+    "greeting": "Hello there 👋",
+    "intro": {
+        "intro1": "I'm Nicholas Hickman. Currently studying to become a software developer. I am also intrigued by designing.",
+        "intro2": " Mainly focused on UI/UX Design and Frontend Development.",
+        "intro3": " Currently I have little experience in backend, but a strong motivation to learn."
+    },
+    "image": {
+        "path": "/Images/Nico.png",
+        "alt": "Nicholas Hickman profile photo"
+    },
+
+    "divider": {
+        "path": "/Images/Line1.png",
+        "alt": "Divider Line"
+    }
+}
