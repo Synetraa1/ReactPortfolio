@@ -1,17 +1,43 @@
 {
     "greeting": "Hello there 👋",
-    "intro": {
-        "intro1": "I'm Nicholas Hickman. Currently studying to become a software developer. I am also intrigued by designing.",
-        "intro2": " Mainly focused on UI/UX Design and Frontend Development.",
-        "intro3": " Currently I have little experience in backend, but a strong motivation to learn."
-    },
-    "image": {
-        "path": "/Images/Nico.png",
-        "alt": "Nicholas Hickman profile photo"
+    "intro1": "I'm Nicholas Hickman. Currently studying to become a software developer. I am also intrigued by designing.",
+    "intro2": " Mainly focused on UI/UX Design and Frontend Development.",
+    "intro3": " Currently I have little experience in backend, but a strong motivation to learn.",
+
+    "Navbar": {
+        "portfolio": "Portfolio by Nicholas Hickman",
+        "cv": "C.V",
+        "projects": "projects",
+        "resume": "resume"
     },
 
-    "divider": {
-        "path": "/Images/Line1.png",
-        "alt": "Divider Line"
+    "info": {
+        "title": "About me  🤓",
+        "intro1": "Little bit about me. ",
+        "intro2": "I am a young enthusiast raised on a computer. So I got fairly familiar with building PCs and using a computer. This is also why I've always wondered how programmes work",
+        "intro3": "I am born in Finland but lived most of my life in Ireland.",
+        "intro4": "Currently residing in Finland with my two cats and my spouse. "
+    },
+
+    "experience": {
+        "title": "My development and design backstory.",
+        "intro1": "I started programming in early 2019. Making a cookie clicker game as practice. ",
+        "intro2": "(Unfortunately I don’t have access to it anymore, back then I wasn’t familiar with version control).",
+        "intro3": "Started studying software development in Keuda, Kerava in 2023. ",
+        "intro4": "My true passion sparked on my first Wordpress project, when I fell in love with front-end and designing. "
+    },
+
+    "technology": {
+        "title": "Technologies  🖥️",
+        "subtitle": "These are the current technologies that I use at a junior level:",
+        "figma": "figma",
+        "javascript": "javascript",
+        "html": "html5",
+        "css": "css",
+        "react": "react",
+        "wordpress": "wordpress",
+        "materialui": "materialui",
+        "lua": "lua",
+        "git": "git"
     }
 }
